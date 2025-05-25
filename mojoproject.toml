@@ -1,0 +1,13 @@
+[project]
+authors = ["Nhật Minh <mail@dhnm.dev>"]
+channels = ["https://conda.modular.com/max-nightly", "https://conda.modular.com/max", "https://repo.prefix.dev/modular-community", "conda-forge"]
+name = "hello_mojo"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = "*"
+python = ">=3.11,<3.13"
+pygame = ">=2.5.1,<3"
